@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:walkfromhome/constants/strings.dart';
-import 'package:walkfromhome/presentation/pages/formpage.dart';
+import 'package:walkfromhome/presentation/pages/form_health_page.dart';
 import 'package:walkfromhome/presentation/widgets/button.dart';
 
 class Howtopage extends StatefulWidget {
@@ -101,7 +101,7 @@ class _HowtopageState extends State<Howtopage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const Formpage()),
+                              builder: (context) => const FormHealthPage()),
                         );
                       }
                     },
